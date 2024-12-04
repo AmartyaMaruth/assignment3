@@ -11,7 +11,7 @@ public class Survey {
     private Long id;
 
     private String firstName;
-    private String MiddleName;
+    private String middleName;  // Corrected field name
     private String lastName;
     private String address;
     private String city;
@@ -44,8 +44,13 @@ public class Survey {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-     public void setMiddleName(String MiddletName) {
-        this.MiddleName = MiddleName;
+
+    public String getMiddleName() {
+        return middleName;  // Corrected getter
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;  // Corrected setter
     }
 
     public String getLastName() {
