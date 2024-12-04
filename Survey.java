@@ -44,6 +44,9 @@ public class Survey {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+     public void setMiddleName(String MiddletName) {
+        this.MiddleName = MiddleName;
+    }
 
     public String getLastName() {
         return lastName;
