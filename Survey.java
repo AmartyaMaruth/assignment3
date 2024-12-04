@@ -11,6 +11,7 @@ public class Survey {
     private Long id;
 
     private String firstName;
+    private String MiddleName;
     private String lastName;
     private String address;
     private String city;
