@@ -10,8 +10,7 @@ public class Survey {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String firstName;
-    private String middleName;  // Correct field name (middleName)
+    private String firstName222;
     private String lastName;
     private String address;
     private String city;
@@ -38,11 +37,11 @@ public class Survey {
     }
 
     public String getFirstName() {
-        return firstName;
+        return firstName222;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        this.firstName = firstName222;
     }
 
     public String getMiddleName() {
